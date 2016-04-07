@@ -1,23 +1,11 @@
-# ReduxSimpleStarter
+#Youtube React/Redux App
 
-###Getting Started###
+###Overview
+This was more of a learning experience following Stephen Grider's excellent Udemy course.
+The app uses React, Redux (not implemented yet), and YouTube's API to return real time debounced
+search results. It uses webpack's dev server for hot reloading.
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+###How to Use
+- Clone the repo
+- Insert your YouTube API key in `./src/index.js` line 10
+- Run `npm install` and then `npm run start` and the app will be live at `localhost:8080` (default)

@@ -1,0 +1,23 @@
+.wWidget{
+	display: block;
+	width: 128px;
+	margin: 0 auto;
+	background: #222;
+	color: #fff;
+	height: 128px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.video-results{
+	background: #222;
+	color: #fff;
+	padding: 6px;
+}
+
+.video-results li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: .75em;
+}
