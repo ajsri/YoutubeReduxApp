@@ -1,7 +1,7 @@
 #Youtube React/Redux App
 
 ###Overview
-This was more of a learning experience following Stephen Grider's excellent Udemy course.
+This was more of a learning experience forkign from Stephen Grider's excellent Udemy course.
 The app uses React, Redux (not implemented yet), and YouTube's API to return real time debounced
 search results. It uses webpack's dev server for hot reloading.
 
